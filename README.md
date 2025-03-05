@@ -7,48 +7,86 @@
 SELECT COUNT(*) 
 FROM `vehicles_population.vehicles_population_data`
 ```
+Results: 223.496 records
 
 ### What are the unique values in each column?
 ```bash
 SELECT DISTINCT(County) 
 FROM `vehicles_population.vehicles_population_data`
+```
+Results: 39 unique values
 
+```bash
 SELECT DISTINCT(City)
 FROM `vehicles_population.vehicles_population_data`
+```
+Results: 484 unique values
 
+```bash
 SELECT DISTINCT(Make)
 FROM `vehicles_population.vehicles_population_data`
+```
+Results: 46 unique values
 
+```bash
 SELECT DISTINCT(Model)
 FROM `vehicles_population.vehicles_population_data`
+```
+Results: 164 unique values
 
+```bash
 SELECT DISTINCT(Model_Year)
 FROM `vehicles_population.vehicles_population_data`
+```
+Results: 21 unique values
 
+```bash
 SELECT DISTINCT(Postal_Code)
 FROM `vehicles_population.vehicles_population_data`
+```
+Results: 565 unique values
 
+```bash
 SELECT DISTINCT(Electric_Vehicle_Type)
 FROM `vehicles_population.vehicles_population_data`
+```
+Results: 2 unique values
 
+```bash
 SELECT DISTINCT(Electric_Range)
 FROM `vehicles_population.vehicles_population_data` 
+```
+Results: 109 unique values
 
+```bash
 SELECT DISTINCT(Base_MSRP)
 FROM `vehicles_population.vehicles_population_data` 
+```
+Results: 31 unique values
 
+```bash
 SELECT DISTINCT(Legislative_District)
 FROM `vehicles_population.vehicles_population_data`
+```
+Results: 49 unique values
 
+```bash
 SELECT DISTINCT(Electric_Utility)
 FROM `vehicles_population.vehicles_population_data` 
+```
+Results: 75 unique values
 
+```bash
 SELECT DISTINCT(DOL_Vehicle_ID)
 FROM `vehicles_population.vehicles_population_data` 
+```
+Results: 223496 unique values
 
+```bash
 SELECT DISTINCT(Clean_Alternative_Fuel_Vehicle__CAFV__Eligibility)
 FROM `vehicles_population.vehicles_population_data`
 ```
+Results: 3 unique values
 
 ### What is the oldest and most recent manufacturing year?
 ```bash
@@ -56,6 +94,7 @@ SELECT MAX(Model_Year),
        MIN(Model_Year)
 FROM `vehicles_population.vehicles_population_data`
 ```
+Results: The oldest manufacturing is 1999 and the most recent manufacturing is 2025
 
 ### What is the city with more than 5,000 vehicle records?
 ```bash
