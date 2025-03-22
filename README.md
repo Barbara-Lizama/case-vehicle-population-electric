@@ -1,6 +1,16 @@
 # Case-Vehicle-Population-Electric
 ## Preliminary Description
-### The dataset called "Vehicle_popultaion_electric" consists of 223,496 instances, a set of 13 attributes, and one class, which describes different information about electric cars, their model, year of manufacture, types of them, among others. 
+The dataset called "Vehicle_population_electric" consists of 223,496 instances, a set of 13 attributes, and one class, which describes different information about electric cars, their model, year of manufacture, types of them, among others. 
+
+## Report made with BigQuery and Google Looker Studio
+
+![alt text](https://github.com/Barbara-Lizama/case-vehicle-population-electric/blob/master/Report/Report_Vehicle_Data.png?raw=true)
+
+[Report Looker Studio](https://lookerstudio.google.com/s/n82Qx8sB7jc)
+
+[PDF of report vehicle](https://github.com/Barbara-Lizama/case-vehicle-population-electric/blob/master/Report/Report_Vehicle_Data.pdf)
+
+## Queries made with BigQuery
 
 ### How many data points does the dataset have? 
 ```bash
